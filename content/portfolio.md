@@ -73,7 +73,6 @@ Circuit design, PCB design, power-system simulation, and engineering design tool
 - Circuit Design
 - Solar Design with ETAP
 - AutoCAD
-- Revit
 - DIALux
 - SolidWorks
 - KiCad
@@ -108,26 +107,26 @@ Circuit design, PCB design, power-system simulation, and engineering design tool
 
 ## Certifications & Professional Development
 ### Battery Management System (BMS) Training
-
-**Status:** Certified  
-**Completion:** Completed  
+**Status:** Certified
+**Completion:** Completed
 **Duration:** One Week
 
 Successfully completed a one-week BMS training programme and received a certificate.
 
 ### ETAP — Electrical Power System Analysis
 
-**Status:** Ongoing  
+**Status:** Ongoing
 **Mode:** Online Training
 
 Currently pursuing online training in ETAP, focusing on electrical power system analysis, design, and simulation.
 
 ### Solar PV System Design
 
-**Status:** Ongoing  
+**Status:** Ongoing
 **Mode:** Online Training
 
 Currently pursuing online training in solar photovoltaic system design, focusing on PV system planning, sizing, and design.
+
 ### Battery Management System (BMS) — Certification
 
 **Status:** Completed · **Duration:** One Week
@@ -250,7 +249,7 @@ Higher Secondary Education.
 
 ### Schooling — G.E.M.S.
 
-**Location:** Dhapasi, Lalitpur
+**Location:** Dhapakhel, Lalitpur
 
 Schooling.
 
