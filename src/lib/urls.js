@@ -1,6 +1,6 @@
 export const safeUrl = (url) => {
   if (typeof url !== 'string') return false
-  return /^(https?:\/\/|mailto:|tel:|\/|#)/i.test(url.trim())
+  return /^(https?:\/\/|mailto:|tel:|\.\.?\/|\/|#)/i.test(url.trim())
 }
 
 export const phoneHref = (phone) => {

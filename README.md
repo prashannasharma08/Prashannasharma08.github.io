@@ -42,6 +42,12 @@ npm run preview
 `content/portfolio.md` is the single source of truth for page content. The site is regenerated whenever this file changes and a new build is produced.
 
 The CV is served from `public/Prashanna_Sharma.pdf`.
+
+## Deployment
+
+Pushes to `main` build and deploy the site with GitHub Actions. The workflow is in `.github/workflows/deploy.yml`, with setup notes in `GITHUB_PAGES_DEPLOYMENT.md`.
+
+Set repository Settings → Pages → Build and deployment → Source to **GitHub Actions** before the first deploy.
 # PrashannaSharma.github.io
 # PrashannaSharma.github.io
 # PrashannaSharma.github.io

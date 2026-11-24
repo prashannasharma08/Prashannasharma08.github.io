@@ -12,7 +12,7 @@ profile:
   location: "New Thimi, Bhaktapur, Nepal"
   email: "prashannasharma001@gmail.com"
   phone: "+977 9803663183"
-  resume: "/Prashanna_Sharma.pdf"
+  resume: "./Prashanna_Sharma.pdf"
   tagline: "Curious • Creative • Hands-on • Always learning"
   socials:
     - label: "Email"
