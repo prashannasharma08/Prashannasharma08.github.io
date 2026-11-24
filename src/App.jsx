@@ -253,6 +253,37 @@ function App() {
       )
     }
 
+    if (section.cards.length) {
+      return (
+        <Section {...common} kicker="Details" className="section--cards">
+          {section.bodyMd && <Prose>{section.bodyMd}</Prose>}
+          <div className="grid grid--cards">
+            {section.cards.map((card, cardIndex) => {
+              const category = card.category || card.meta.status || card.meta.type || card.meta.location || ''
+              const detailTags = card.tags.length
+                ? card.tags
+                : Object.entries(card.meta)
+                  .filter(([key]) => !['category', 'tags', 'status', 'type', 'area', 'location'].includes(key))
+                  .map(([, value]) => value)
+
+              return (
+                <Card
+                  key={`${card.title}-${cardIndex}`}
+                  title={card.title}
+                  category={category}
+                  tags={detailTags}
+                  index={cardIndex}
+                  className={card.meta.status?.toLowerCase() === 'ongoing' ? 'card--ongoing' : ''}
+                >
+                  <Prose>{card.bodyMd}</Prose>
+                </Card>
+              )
+            })}
+          </div>
+        </Section>
+      )
+    }
+
     return (
       <Section {...common} className="section--generic">
         <Prose>{section.bodyMd}</Prose>

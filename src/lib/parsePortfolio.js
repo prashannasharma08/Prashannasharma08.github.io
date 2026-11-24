@@ -124,16 +124,28 @@ const parseSections = (markdown) => {
   }))
 }
 
+const resolveSectionId = (id, sectionTitles) => {
+  if (sectionTitles.has(id)) return id
+
+  const match = [...sectionTitles.keys()].find((sectionId) => sectionId.startsWith(`${id}-`))
+  return match || id
+}
+
 const buildNav = (rawNav, sections) => {
   const sectionTitles = new Map(sections.map((section) => [section.id, section.title]))
   const items = (Array.isArray(rawNav) ? rawNav : [])
     .map((item) => {
       if (typeof item === 'string') {
-        return { id: slugify(item), label: item }
+        const id = slugify(item)
+        return { id: resolveSectionId(id, sectionTitles), label: item }
       }
 
       const id = slugify(item?.id || item?.label || '')
-      return { id, label: item?.label || sectionTitles.get(id) || id }
+      const resolvedId = resolveSectionId(id, sectionTitles)
+      return {
+        id: resolvedId,
+        label: item?.label || sectionTitles.get(resolvedId) || id,
+      }
     })
     .filter((item) => item.id && (sectionTitles.has(item.id) || item.id === 'contact'))
 

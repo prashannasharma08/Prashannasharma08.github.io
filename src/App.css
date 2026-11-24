@@ -469,7 +469,8 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid--workshops {
+.grid--workshops,
+.grid--cards {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -531,6 +532,10 @@ main {
   color: var(--muted);
   font-family: var(--font-mono);
   font-size: 11px;
+}
+
+.card--ongoing .card-eyebrow {
+  color: var(--muted);
 }
 
 .card-title {
@@ -813,7 +818,8 @@ main {
   }
 
   .grid--projects,
-  .grid--workshops {
+  .grid--workshops,
+  .grid--cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -887,7 +893,8 @@ main {
   .grid--focus,
   .grid--skills,
   .grid--projects,
-  .grid--workshops {
+  .grid--workshops,
+  .grid--cards {
     grid-template-columns: 1fr;
   }
 

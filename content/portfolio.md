@@ -107,27 +107,7 @@ Circuit design, PCB design, power-system simulation, and engineering design tool
 - Research
 
 ## Certifications & Professional Development
-### Battery Management System (BMS) Training
 
-**Status:** Certified  
-**Completion:** Completed  
-**Duration:** One Week
-
-Successfully completed a one-week BMS training programme and received a certificate.
-
-### ETAP — Electrical Power System Analysis
-
-**Status:** Ongoing  
-**Mode:** Online Training
-
-Currently pursuing online training in ETAP, focusing on electrical power system analysis, design, and simulation.
-
-### Solar PV System Design
-
-**Status:** Ongoing  
-**Mode:** Online Training
-
-Currently pursuing online training in solar photovoltaic system design, focusing on PV system planning, sizing, and design.
 ### Battery Management System (BMS) — Certification
 
 **Status:** Completed · **Duration:** One Week
