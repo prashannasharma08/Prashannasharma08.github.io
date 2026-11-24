@@ -1,4 +1,3 @@
-
 ---
 site:
   title: "Prashanna Sharma — Electrical & Electronics Engineering"
