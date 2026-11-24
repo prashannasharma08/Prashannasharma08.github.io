@@ -1,3 +1,4 @@
+
 ---
 site:
   title: "Prashanna Sharma — Electrical & Electronics Engineering"
@@ -29,6 +30,8 @@ nav:
     label: Focus
   - id: skills
     label: Skills
+  - id: certifications
+    label: Certifications
   - id: experience
     label: Experience
   - id: projects
@@ -49,15 +52,15 @@ Enthusiastic and curious Electrical and Electronics Engineering student with a s
 
 ### Power & Energy
 
-Battery management, solar tracking, lighting optimization, and electrical windmill projects.
+Battery management, solar tracking, lighting optimization, renewable energy systems, and electrical windmill projects.
 
 ### Control & Automation
 
-Control concepts, autonomous robotics, line following, and embedded control.
+Control concepts, autonomous robotics, line following, and embedded control systems.
 
 ### Robotics
 
-Kukkur Bot, War Bot, humanoid robotics, drone, and competition-oriented projects.
+Kukkur Bot, War Bot, humanoid robotics, drones, and competition-oriented projects.
 
 ### Design & Simulation
 
@@ -88,7 +91,7 @@ Circuit design, PCB design, power-system simulation, and engineering design tool
 
 ### Power & Systems
 
-- DIgSILENT
+- DIgSILENT PowerFactory
 - Battery Management Systems
 - Power Systems
 - Renewable Energy
@@ -104,23 +107,43 @@ Circuit design, PCB design, power-system simulation, and engineering design tool
 - Writing
 - Research
 
+## Certifications & Professional Development
+
+### Battery Management System (BMS) — Certification
+
+**Status:** Completed · **Duration:** One Week
+
+Successfully completed a one-week Battery Management System training programme and received a certificate, covering battery management principles, battery protection, monitoring, and system design.
+
+### ETAP — Electrical Power System Analysis
+
+**Status:** Ongoing · **Mode:** Online
+
+Currently undertaking online training in ETAP, focusing on electrical power system analysis, design, and simulation.
+
+### Solar PV System Design
+
+**Status:** Ongoing · **Mode:** Online
+
+Currently pursuing online training in solar photovoltaic system design, developing knowledge of PV system planning, sizing, component selection, and system design.
+
 ## Experience
 
 ### Secretary — Kathmandu University Robotics Club (KURC)
 
-**Type:** Leadership · **Area:** Club administration
+**Type:** Leadership · **Area:** Club Administration
 
-Club administration, member coordination, technical events, workshops, competitions, and communication with university stakeholders.
+Responsible for club administration, member coordination, technical events, workshops, competitions, and communication with university stakeholders.
 
 ### Creative Team — Aavishkar
 
-**Type:** Event coordination
+**Type:** Event Coordination
 
-Contributed to event planning, creative coordination, and execution of technical exhibition activities including Robo-Race.
+Contributed to event planning, creative coordination, and execution of technical exhibition activities, including Robo-Race.
 
 ### Team Urja — Electric Formula Vehicle
 
-**Type:** Engineering team
+**Type:** Engineering Team
 
 Worked as part of a student engineering team developing an electric formula-style vehicle for competitive engineering activities.
 
@@ -164,7 +187,7 @@ Case study of a departmental room focused on lighting performance and energy opt
 
 ### Solar Power Tracking & Monitoring System
 
-**Category:** Renewable Energy · **Tags:** Solar, IoT, Monitoring
+**Category:** Renewable Energy · **Tags:** Solar, Embedded Systems
 
 Microcontroller-based solar tracking and monitoring system.
 
@@ -184,7 +207,7 @@ Electronic traffic-light controller using a 555 timer.
 
 **Category:** Prototyping · **Tags:** Mechanical, Prototype
 
-Mechanical/non-electrical prototype.
+Mechanical and non-electrical prototype.
 
 ### Electrical Windmill
 
@@ -204,7 +227,7 @@ Bachelor's degree in Electrical and Electronics Engineering.
 
 **Location:** Gyaneshwor, Kamaladi
 
-High School / College.
+Higher Secondary Education.
 
 ### Schooling — G.E.M.S.
 
